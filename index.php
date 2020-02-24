@@ -219,15 +219,8 @@
 							<h4>Software Engineer</h4>
 							<p>Designing websites, Create, Deploy and Maintance.</p>
 						</div>
-						<div class="timeline-content">
-							<h4>Web Designer</h4>
-							<p>Designing websites for campus needs Company</p>
-						</div>
-						<div class="timeline-content">
-							<h4>IT Support</h4>
-							<p>Helping all school needs related to IT, handling every problem that concerns about it</p>
-						</div>
-					</div> 
+					</div>
+					<br><br><br> 
 					<div class="timeline-block">
 						<div class="timeline-ico">
 							<i class="fa fa-graduation-cap"></i>
