@@ -220,7 +220,7 @@
 							<p>Designing websites, Create, Deploy and Maintance.</p>
 						</div>
 					</div>
-					<br><br><br> 
+					<br><br><br><br> 
 					<div class="timeline-block">
 						<div class="timeline-ico">
 							<i class="fa fa-graduation-cap"></i>
