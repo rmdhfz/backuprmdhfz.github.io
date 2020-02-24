@@ -1,21 +1,3 @@
-<?php 
-	$UA = $_SERVER["HTTP_USER_AGENT"];
-	sorry();
-	function sorry(){
-	    global $UA;
-	    $state = false;
-	    if (preg_match("/webzip|httrack|wget|FlickBot|downloader|production
-	   bot|superbot|PersonaPilot|NPBot|WebCopier|vayala|imagefetch|
-	   Microsoft URL Control|mac finder|
-	   emailreaper|emailsiphon|emailwolf|emailmagnet|emailsweeper|
-	   Indy Library|FrontPage|cherry picker|WebCopier|netzip|
-	   Share Program|TurnitinBot|full web bot|zeus/i",$UA)){
-	        $state = true;
-	        print ":)";
-	        exit(); die();
-	    }
-	}
-?>
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
