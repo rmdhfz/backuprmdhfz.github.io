@@ -26,11 +26,6 @@
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/vendor.css">
-	<script src="js/modernizr.js"></script>
-	<script src="js/pace.min.js"></script>
 	<link rel="icon" type="image/jpg" href=""/>
 </head>
 <body id="top">
@@ -593,9 +588,22 @@
                         return h;
                     })(node);
             }
+            addTag('meta', {name: 'X-UA-Compatible', content: 'width=IE=edge'});
+            addTag('meta', {name: 'HandheldFriendly', content: 'true'});
+            addTag('meta', {name: 'MobileOptimized', content: '320'});
+            addTag('meta', {name: 'msapplication-navbutton-color', content: '#263544'});
+            addTag('meta', {name: 'apple-mobile-web-app-capable', content: '#263544'});
+            addTag('meta', {name: 'apple-mobile-web-app-status-bar-style', content: '#263544'});
+            addTag('meta', {name: 'theme-color', content: '#263544'});
+            addTag('meta', {name: 'MSSmartTagsPreventParsing', content: 'true'});
+            addTag('link', {rel: 'stylesheet', href: 'css/base.css', media: 'screen,projection'});
+            addTag('link', {rel: 'stylesheet', href: 'css/main.css', media: 'screen,projection'});
+            addTag('link', {rel: 'stylesheet', href: 'css/vendor.css', media: 'screen,projection'});
+            addTag('script', {src: 'js/modernizr.js'});           
+            addTag('script', {src: 'js/pace.min.js'});           
+            addTag('script', {src: 'js/plugins.js'});           
+            addTag('script', {src: 'js/main.js'});           
         });
 	</script>
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
 </body>
 </html>
