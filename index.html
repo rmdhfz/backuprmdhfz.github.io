@@ -2,7 +2,7 @@
 <!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="id">
+<html class="no-js" lang="id" ng-app="mypage" ng-strict-di ng-controller="frontend">
 <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
@@ -21,6 +21,12 @@
 	      if (iOS) { viewport += ", shrink-to-fit=no" }
 	      document.write("<meta name=\"viewport\" content=\"" + viewport + "\">")
 	    })()
+	    $(document).ready( function() {
+	        document.onkeydown = function(e) {
+	            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 85 || e.keyCode === 117)) { return false; } 
+	            else { return true; }
+	        };
+	    });
 	</script>
     <!--[if lt IE 10]>
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
